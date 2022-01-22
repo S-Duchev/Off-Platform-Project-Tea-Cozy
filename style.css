@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+#logo img {
+  height: 50px;
+  display: flex;
+  margin: 10px;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+header {
+  text-decoration: underline;
+  display: flex;
+}
