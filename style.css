@@ -1,11 +1,23 @@
+/* Universal */
 html {
   box-sizing: border-box;
+  opacity: 0.9;
 }
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
+h2,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+/* * {
+  padding: 0;
+  margin: 0;
+} */
 
 body {
   font-family: Helvetica, sans-serif;
@@ -15,19 +27,71 @@ body {
   opacity: 0.9;
   text-align: center;
 }
-#logo img {
-  height: 50px;
+
+.container {
   display: flex;
-  margin: 10px;
+  flex-wrap: wrap;
+
+  /* border: 1px solid red; */
 }
 
-#navbar ul {
-  display: flex;
-  list-style: none;
-  justify-content: flex-end;
-}
+/* Header */
 
 header {
+  width: 100%;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  text-align: center;
+  justify-content: space-between;
+  background-color: black;
+}
+#logo img {
+  height: 50px;
+  margin: 10px;
+}
+#nav ul {
+  list-style: none;
+}
+#nav ul li {
+  display: inline-block;
+  padding-right: 20px;
   text-decoration: underline;
-  display: flex;
+  color: white;
+}
+
+/* Main */
+
+main {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission */
+#mission {
+  height: 700px;
+  background-image: url(./img/img-mission-background.jpg);
+  margin-bottom: 30px;
+}
+#mission #mission-text {
+  background-color: black;
+  margin: auto;
+  width: 100%;
+}
+/* Store */
+
+.store-container {
+  display: inline-flex;
+  max-width: 1000px;
+  height: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
 }
