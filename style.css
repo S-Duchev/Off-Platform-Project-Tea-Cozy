@@ -2,6 +2,7 @@
 html {
     box-sizing: border-box;
     opacity: 0.9;
+    scroll-padding-top: 70px;
 }
 
 *,
@@ -40,6 +41,8 @@ header {
     text-align: center;
     justify-content: space-between;
     background-color: black;
+    top: 0;
+    left: 0;
 }
 #logo img {
     height: 50px;
@@ -101,7 +104,6 @@ main {
 /* Locations */
 
 .content-container {
-   
     display: inline-block;
     padding-top: 70px;
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
