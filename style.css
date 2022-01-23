@@ -79,7 +79,7 @@ main {
     
 }
 #mission #mission-text {
-    background: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     margin: auto;
     width: 1200px;
 }
@@ -125,6 +125,7 @@ main {
     margin: 15px 20px;
 }
 
+/* Contacts & Footer */
 #contact {
     height: 200px;
 }
